@@ -10,7 +10,7 @@
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"
-        />
+    />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
@@ -37,5 +37,44 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+
+          </div>
+          <div class="col-md-9">
+
+          </div>
+        </div>
+    </div>
+        <form>
+            <p>Filter Search</p>
+         </form>
+        <ul class="list-group">
+
+        </ul>
+        <li class="list-group-item">
+            <label for="date">Enter Date</label>
+            <input type="text" placeholder="1/10/2010" id="datetime" />
+        </li>
+        <li class="list-group-item">
+            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+        </li>
+        <div class="col-md-9">
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Country</th>
+                    <th>Shape</th>
+                    <th>Duration</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            </table>
+        </div>
 </body>
 </html>
